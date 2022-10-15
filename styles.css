@@ -1,0 +1,118 @@
+#body{
+    background-color: #eee;
+}
+
+header{
+    background-color: #3b3b4f;
+    padding: .5rem;
+    border-bottom: 5px solid tomato;
+}
+
+.header_contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 60%;
+}
+
+.cart{
+    width: 50px;
+}
+
+.pedido{
+    display: flex;
+    justify-content: center;
+}
+
+.budge{
+    color: yellow;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.hidden{
+    display: none;
+}
+
+/* MAIN */
+
+main{
+    background-color: #eee;
+    padding: 1rem 0;
+}
+
+#buscador{
+    display: flex;
+    margin: auto;
+}
+
+#listado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 200px;
+    margin: 1rem;
+    transition: all 300ms;    
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px gray;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+    filter: brightness(130%); 
+}
+
+.card_info{
+    background-color: #ccc;
+    border-radius: 0 0 5px 5px;
+    padding: .5rem;
+    border: 2px solid black;
+}
+
+.card h3{
+}
+
+.card p{
+    margin: 0;
+}
+
+.card img{
+    width: 100%;
+    transition: all 300ms;  
+    filter: drop-shadow(6px 6px 7px #222); 
+}
+
+.fondoRegular{
+    background-image: url(./img/fondoTetrisRegular.jpg);
+    background-size: contain;
+}
+
+.fondoGold{
+    background-image: url(./img/fondoTetrisGold.jpg);
+    background-size: contain;
+}
+
+.fondoSilver{
+    background-image: url(./img/fondoTetrisSilver.jpg);
+    background-size: contain;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #3b3b4f;
+    padding: 1rem;
+}
+
+.texto_footer{
+    color: white;
+}

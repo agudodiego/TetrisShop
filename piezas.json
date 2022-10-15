@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cubo",
+        "categoria": "Regular",
+        "precio": 100,
+        "img": "./img/piezaCubobasica.png",
+        "fondo": "fondoRegular"
+    },
+    {
+        "id": 2,
+        "nombre": "Pieza L",
+        "categoria": "Regular",
+        "precio": 100,
+        "img": "./img/piezaLbasica.png",
+        "fondo": "fondoRegular"
+    },
+    {
+        "id": 3,
+        "nombre": "Barra",
+        "categoria": "Regular",
+        "precio": 100,
+        "img": "./img/piezaBarrabasica.png",
+        "fondo": "fondoRegular"
+    },
+    {
+        "id": 4,
+        "nombre": "Pieza S",
+        "categoria": "Regular",
+        "precio": 100,
+        "img": "./img/piezaSbasica.png",
+        "fondo": "fondoRegular"
+    },
+    {
+        "id": 5,
+        "nombre": "Pieza T",
+        "categoria": "Regular",
+        "precio": 100,
+        "img": "./img/piezaTbasica.png",
+        "fondo": "fondoRegular"
+    },
+    {
+        "id": 6,
+        "nombre": "Cubo",
+        "categoria": "Silver",
+        "precio": 200,
+        "img": "./img/piezaCuboPlata.png",
+        "fondo": "fondoSilver"
+    },
+    {
+        "id": 7,
+        "nombre": "Pieza L",
+        "categoria": "Silver",
+        "precio": 200,
+        "img": "./img/piezaLPlata.png",
+        "fondo": "fondoSilver"
+    },
+    {
+        "id": 8,
+        "nombre": "Barra",
+        "categoria": "Silver",
+        "precio": 200,
+        "img": "./img/piezaBarraPlata.png",
+        "fondo": "fondoSilver"
+    },
+    {
+        "id": 9,
+        "nombre": "Pieza S",
+        "categoria": "Silver",
+        "precio": 200,
+        "img": "./img/piezaSPlata.png",
+        "fondo": "fondoSilver"
+    },
+    {
+        "id": 10,
+        "nombre": "Pieza T",
+        "categoria": "Silver",
+        "precio": 200,
+        "img": "./img/piezaTPlata.png",
+        "fondo": "fondoSilver"
+    },
+    {
+        "id": 11,
+        "nombre": "Cubo",
+        "categoria": "Gold",
+        "precio": 300,
+        "img": "./img/piezaCuboOro.png",
+        "fondo": "fondoGold"
+    },
+    {
+        "id": 12,
+        "nombre": "Pieza L",
+        "categoria": "Gold",
+        "precio": 300,
+        "img": "./img/piezaLOro.png",
+        "fondo": "fondoGold"
+    },
+    {
+        "id": 13,
+        "nombre": "Barra",
+        "categoria": "Gold",
+        "precio": 300,
+        "img": "./img/piezaBarraOro.png",
+        "fondo": "fondoGold"
+    },
+    {
+        "id": 14,
+        "nombre": "Pieza S",
+        "categoria": "Gold",
+        "precio": 300,
+        "img": "./img/piezaSOro.png",
+        "fondo": "fondoGold"
+    },
+    {
+        "id": 15,
+        "nombre": "Pieza T",
+        "categoria": "Gold",
+        "precio": 300,
+        "img": "./img/piezaTOro.png",
+        "fondo": "fondoGold"
+    }
+]
