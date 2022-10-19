@@ -5,49 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="styles.css">
     <title>TetrisShop</title>
 </head>
 
 <body id="body">
     <header class="container">
         <div class="header_contenido row">
-            <div class="shop col-4 text-center">
-                <a href="index.html"><img class="logo " src="./img/logo.png" alt="carrito"></a>
+            <div class="shop col text-center">
+                <a href="index.html"><img class="logo" src="./img/logo.png" alt="carrito"></a>
             </div>
-            <div class="pedido col-4">
-                <a href="#" target="_blank"><img class="cart img-fluid" src="./img/cart_white.png" alt="carrito"></a>
-                <div class="budge hidden">
-
-                </div>
+            <div class="pedido col">
+                <a href="#" target="_blank"><img class="cart img-fluid opacity" src="./img/cart_white.png" alt="carrito"></a>
+                <div class="budge hidden"></div>
             </div>
         </div>
     </header>
 
-    <main id="main" class="container text-center col-lg-5">
-        <table class="table table align-middle">
+    <main id="main" class="container text-center ">
+        <table class="table col-lg-5 align-middle table-hover animate__animated">
             <thead>
                 <tr class="table-dark">
                     <th scope="col">imagen</th>
-                    <th scope="col">pieza</th>
+                    <th scope="col" class="nomPieza">pieza</th>
                     <th scope="col">cantidad</th>
                     <th scope="col">precio</th>
                     <th scope="col">subtotal</th>
                 </tr>
             </thead>
-            <tbody id="cuerpoLista">
+            <tbody id="cuerpoLista" class="table-secondary">
 
             </tbody>
         </table>
 
         <h3 id="total" class="m-5"></h3>
 
-        <button class="btn btn-warning col-sm-2 mx-1">Cancelar</button>
-        <button class="btn btn-success col-sm-2 mx-1">Continuar</button>
+        <button id="btnCancelar" class="btn btn-warning col-sm-2 mx-1">Cancelar</button>
+        <button id="btnContinuar" class="btn btn-success col-sm-2 mx-1">Continuar</button>
 
+
+        <!-- Modal -->
+        <div id="modGracias" class="hidden">
+            <div class="modalDialog rounded-4 animate__animated animate__zoomInDown">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Compra Exitosa</h1>
+                    <button id="btnClose" class="btn btn-success text-light" type="button">Cerrar</button>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <div class="fs-3">
+                        Muchas gracias por confiar en nuestros productos!!
+                    </div>
+                    <div class="fs-4 mt-3">
+                        ❤️ Te esperamos nuevamente ❤️
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
 
     <script type="module" src="./carrito.js"></script>
 </body>

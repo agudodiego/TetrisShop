@@ -5,23 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="styles.css">
     <title>TetrisShop</title>
 </head>
 
 <body id="body">
     <header class="container">
         <div class="header_contenido row">
-            <div class="shop col-4 text-center">
-                <a href="index.html"><img class="logo " src="./img/logo.png" alt="carrito"></a>
+            <div class="shop col text-center">
+                <a href="index.html"><img class="logo animate__animated animate__flipInY" src="./img/logo.png" alt="carrito"></a>
             </div>
-            <div class="pedido col-4">
-                <a href="./carrito.html"><img class="cart img-fluid" src="./img/cart_white.png" alt="carrito"></a>
-                <div class="budge hidden">
-                    1
-                </div>
+            <div class="pedido col">
+                <a href="./carrito.html"><img class="cart opacity" src="./img/cart_white.png" alt="carrito"></a>
+                <div class="budge hidden"></div>
             </div>
         </div>
     </header>
@@ -31,12 +30,12 @@
             <input type="text" class="form-control" placeholder="Filtrar por nombre o categoria">
         </div>
         <div class="row">
-            <h3 class="col text-center m-2">Bienvenido a la primer tienda de piezas de Tetris</h3>
+            <h3 class="titulo col text-center m-2">Bienvenido a la primer tienda de piezas de Tetris</h3>
         </div>
         <div class="row">
-            <h5 class="col text-center fst-italic">- Cuyo único sentido es implementar un carrito de compras -</h5>
+            <h5 class="subtitulo col text-center fst-italic">- Cuyo único sentido es implementar un carrito de compras -</h5>
         </div>
-        
+
         <!-- Listado de piezas -->
         <div id="listado"></div>
     </main>
@@ -44,12 +43,12 @@
     <footer class="container text-center">
         <div class="row">
             <div class="texto_footer col">
-                Todos los derechos reservados - Hecho por Diego Agudo
+                Diplomatura en Desarrollo Web Frontend CUCH/UNTREF - Hecho por Diego Agudo
             </div>
         </div>
     </footer>
+
     <script type="module" src="./index.js"></script>
-    <!-- <script type="module" src="./funciones.js"></script> -->
 </body>
 
 </html>
