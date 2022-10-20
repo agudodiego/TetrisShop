@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return new Pieza(prod.id, prod.nombre, prod.categoria, prod.precio, prod.img, prod.fondo, prod.cantidad)
     });
 
-    if (arrayCarrito.length = 0){
+    if (arrayCarrito.length > 0){
       $cart.classList.remove("opacity");
     }
   }

@@ -23,6 +23,7 @@ header{
 
 .cart{
     width: 50px;
+    transition: all 300ms;
 }
 
 .pedido{
@@ -149,6 +150,10 @@ table{
 
 @media screen and (max-width: 480px) {
 
+    .logo{
+        width: 100%;
+    }
+
     .titulo{
         font-size: 1.2rem;
     }
@@ -159,6 +164,11 @@ table{
 
     .modalDialog{
         width: 90%;
+        padding: 1rem;
+    }
+
+    .exit2{
+        font-size: .5rem;
     }
 
     .nomPieza {
